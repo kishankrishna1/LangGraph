@@ -1,6 +1,6 @@
 # AI Chatbot — LangGraph + Flask + React
 
-A conversational chatbot web application powered by **LangGraph** and **OpenAI**, served through a **Flask** REST API, with a **React + Tailwind CSS** frontend styled as a dark-mode chat interface (inspired by Claude's chat UI).
+A conversational chatbot web application powered by **LangGraph** and **OpenAI**, served through a **Flask** REST API, with a **React + Tailwind CSS** frontend styled as a dark-mode chat interface.
 
 ## Features
 
@@ -9,6 +9,8 @@ A conversational chatbot web application powered by **LangGraph** and **OpenAI**
 - Clean dark-mode chat UI
 - User and bot messages visually separated — user messages right-aligned, bot messages left-aligned
 - Simple REST API connecting frontend and backend
+
+![AI Chatbot UI](./frontend/src/assets/home_page.png)
 
 ## Tech Stack
 
