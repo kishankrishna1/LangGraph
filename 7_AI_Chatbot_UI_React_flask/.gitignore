@@ -1,0 +1,40 @@
+# Environment variables (Crucial for API Keys)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+
+# Python Cache & Builds
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Frontend Builds & Cache
+dist/
+frontend/dist/
+.vite/
+.eslintcache
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db
