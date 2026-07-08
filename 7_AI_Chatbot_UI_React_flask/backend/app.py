@@ -67,6 +67,9 @@ def chat_stream():
                 config=config,
                 stream_mode='messages'
             ):
+                if metadata.get("langgraph_node") != "chat_node":
+                    continue
+                
                 if message_chunk.content:
                     payload = json.dumps({"token": message_chunk.content})
                     yield f"data: {payload}\n\n"
